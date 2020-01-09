@@ -1,4 +1,4 @@
-from hello import Calculation
+from practice.hello import Calculation
 
 
 class Child(Calculation):
