@@ -20,6 +20,7 @@ dropDown = Select(driver.find_element_by_id("exampleFormControlSelect1"))
 dropDown.select_by_visible_text("Female")
 getText = driver.find_element_by_id("exampleFormControlSelect1").text
 print(getText)
+
 #dropDown.select_by_index(0)
 
 
